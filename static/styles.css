@@ -1,0 +1,58 @@
+
+
+a:hover {
+	color: black;
+}
+
+#title {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:black;
+	font-size: 1em;
+}
+
+
+body {
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+/* change colors of the top nav*/
+
+.nav-white {
+	background-color: white;
+}
+
+.nav-black {
+	background-color: black;
+
+}
+
+.nav-yellow {
+	background-color: #FFE599;
+	align-content: flex-end;
+}
+
+.nav-cyan {
+	background-color: #A2C4C9;
+}
+
+.nav-green {
+	background-color: #B6D7A8;
+}
+.nav-pink {
+	background-color: #D5A6BD;
+}
+
+.nav-red {
+	background-color: #CF2A27;
+}
+
+.nav-blue {
+	background-color: #9FC5F8;
+}
