@@ -4,12 +4,14 @@ a:hover {
 	color: black;
 }
 
-#title {
+h1 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color:black;
-	font-size: 1em;
 }
 
+p {
+	padding:10px;
+}
 
 body {
   padding-top: 60px;
@@ -22,7 +24,49 @@ body {
   }
 }
 
+div#broadcast {
+	background-color: #FFE599;
+}
+
+.hidden{
+    display: none;
+}
+
+/* hides the spin-button for firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/* hides the spin-button for chrome*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 /* change colors of the top nav*/
+
+.btn {
+  text-transform: uppercase;
+  padding: (@padding - 0.5) @padding;
+  font-weight: bold;
+ 
+  .round-corners;
+  .transition;
+}
+
+.btn:hover {
+  .transition;
+}
+
+
+.btn-success {
+  background-color: @green;
+  border-color: @green;
+}
+
+.btn-success:hover {
+  background-color: @green2;
+  border-color: @green2;
+}
 
 .nav-white {
 	background-color: white;
@@ -35,7 +79,6 @@ body {
 
 .nav-yellow {
 	background-color: #FFE599;
-	align-content: flex-end;
 }
 
 .nav-cyan {
